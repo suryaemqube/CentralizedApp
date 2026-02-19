@@ -9,7 +9,9 @@ import { authGuard, noAuthGuard, roleGuard } from "./auth/guards/auth.guard";
 export const routes: Routes = [
   { path: "login", component: LoginComponent, canActivate: [noAuthGuard] },
   { path: "auth/callback", component: CallbackComponent },
+
   { path: "dashboard", component: DashboardComponent, canActivate: [authGuard] },
+
   {
     path: "admin",
     canActivate: [authGuard, roleGuard("Admin")],
@@ -20,6 +22,7 @@ export const routes: Routes = [
       { path: "", redirectTo: "users", pathMatch: "full" },
     ],
   },
-  { path: "", redirectTo: "dashboard", pathMatch: "full" },
-  { path: "**", redirectTo: "login" },
+
+  { path: "", redirectTo: "login", pathMatch: "full" },
+  { path: "**", redirectTo: "login" }
 ];

@@ -97,3 +97,20 @@
 {"ip":"::1","level":"info","message":"Request","method":"GET","path":"//sso/authorize","reqId":"2c8e028d285d76e4","timestamp":"2026-02-19 16:05:51"}
 {"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"b6b55f5433db7a65","timestamp":"2026-02-19 16:06:18"}
 {"level":"info","message":"SIGINT received — shutting down","timestamp":"2026-02-19 16:16:26"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 16:36:09"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 16:36:09"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 16:36:09"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 16:36:09"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/sso/authorize","reqId":"1ba9e0a51d8ccb92","timestamp":"2026-02-19 16:39:13"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 16:52:39"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 16:52:39"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 16:52:39"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 16:52:39"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 16:53:02"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 16:53:02"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 16:53:02"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 16:53:02"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 16:53:12"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 16:53:13"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 16:53:13"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 16:53:13"}

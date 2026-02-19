@@ -61,7 +61,7 @@ export async function authorizeHandler(req: Request, res: Response): Promise<voi
         code_challenge_method: q.code_challenge_method,
     }), {
         httpOnly: true, secure: config.cookie.secure,
-        sameSite: config.cookie.sameSite, maxAge: 5 * 60 * 1000, signed: true,
+        sameSite: (config.cookie.sameSite as string).toLowerCase() as 'lax' | 'strict' | 'none', maxAge: 5 * 60 * 1000, signed: true,
     });
 
     // Tell Angular which app is requesting + what state to pass back
@@ -169,7 +169,9 @@ export async function tokenHandler(req: Request, res: Response): Promise<void> {
             res.clearCookie('refresh_token');
             res.status(400).json({ error: 'invalid_grant', error_description: 'Refresh token invalid or revoked' }); return;
         }
-        setRefreshCookie(res, tokens.refresh_token);
+        if (tokens.refresh_token) {
+            setRefreshCookie(res, tokens.refresh_token);
+        }
         logger.info('Token refreshed', { clientId: body.client_id });
         res.status(200).json({
             access_token: tokens.access_token,
@@ -243,7 +245,7 @@ function setRefreshCookie(res: Response, token: string): void {
     res.cookie('refresh_token', token, {
         httpOnly: true,
         secure:   config.cookie.secure,
-        sameSite: config.cookie.sameSite,
+        sameSite: (config.cookie.sameSite as string).toLowerCase() as 'lax' | 'strict' | 'none',
         maxAge:   config.jwt.refreshExpiry * 1000,
     });
 }

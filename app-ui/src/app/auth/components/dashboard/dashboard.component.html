@@ -1,0 +1,52 @@
+<div class="dash-page">
+  <!-- Top bar -->
+  <div class="topbar">
+    <span class="topbar-title">SSO Portal</span>
+    <div class="topbar-user">
+      <span>{{ user?.firstName }} {{ user?.lastName }}</span>
+      <button class="btn-logout" (click)="logout()">Logout</button>
+    </div>
+  </div>
+
+  <!-- Dashboard content -->
+  <div class="dash-body">
+    <div class="dash-section-title">Dashboard</div>
+
+    <div class="app-grid">
+      <div
+        *ngFor="let app of userApps"
+        class="app-tile"
+        (click)="openApp(app)"
+        title="{{ app.appName }}"
+      >
+        <div class="app-icon-wrap">
+          <img
+            *ngIf="app.iconPath"
+            [src]="app.iconPath"
+            [alt]="app.appName"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'block';
+            "
+          />
+          <div class="app-icon-fallback" [style.display]="'none'">
+            {{ app.appName.charAt(0) }}
+          </div>
+        </div>
+        <span class="app-label">{{ app.appName }}</span>
+      </div>
+
+      <!-- Show locked tiles for apps user doesn't have -->
+      <div
+        *ngFor="let app of lockedApps"
+        class="app-tile locked"
+        title="{{ app.appName }} — No access"
+      >
+        <div class="app-icon-wrap lock-icon">🔒</div>
+        <span class="app-label">{{ app.appName }}</span>
+      </div>
+    </div>
+
+    <div class="dash-hint">Select One App</div>
+  </div>
+</div>

@@ -1,0 +1,164 @@
+<div class="page-wrap">
+  <!-- Breadcrumb header -->
+  <div class="page-header">
+    <span class="hdr-name">{{ titleLabel }}</span>
+    <span class="hdr-sep"> -- </span>
+    <span class="hdr-dept">{{ selectedDeptName }}</span>
+    <span class="hdr-sep"> - </span>
+    <span class="hdr-emp">{{ form.employeeCode }}</span>
+  </div>
+
+  <!-- Form card -->
+  <div class="form-card">
+    <!-- Left / Centre fields -->
+    <div class="form-main">
+      <!-- Row 1 -->
+      <div class="form-row">
+        <div class="field-col">
+          <label>EmpCode</label>
+          <input
+            type="text"
+            [(ngModel)]="form.employeeCode"
+            name="empCode"
+            maxlength="50"
+          />
+        </div>
+        <div class="field-col">
+          <label>Department</label>
+          <select
+            [(ngModel)]="form.departmentId"
+            name="dept"
+            (change)="onDeptChange()"
+          >
+            <option [ngValue]="null">Department</option>
+            <option *ngFor="let d of departments" [ngValue]="d.id">
+              {{ d.value }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="form-row">
+        <div class="field-col">
+          <label>First Name</label>
+          <input
+            type="text"
+            [(ngModel)]="form.firstName"
+            name="firstName"
+            maxlength="100"
+          />
+        </div>
+        <div class="field-col">
+          <label>Last Name</label>
+          <input
+            type="text"
+            [(ngModel)]="form.lastName"
+            name="lastName"
+            maxlength="100"
+          />
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="form-row">
+        <div class="field-col">
+          <label>Username (Loginname)</label>
+          <input
+            type="text"
+            [(ngModel)]="form.username"
+            name="username"
+            maxlength="100"
+          />
+        </div>
+        <div class="field-col">
+          <label>Email</label>
+          <input
+            type="email"
+            [(ngModel)]="form.email"
+            name="email"
+            maxlength="100"
+          />
+        </div>
+      </div>
+
+      <!-- Row 4 — only shown for new users -->
+      <div class="form-row" *ngIf="!isEdit">
+        <div class="field-col">
+          <label>Password</label>
+          <input
+            type="password"
+            [(ngModel)]="form.password"
+            name="password"
+            maxlength="100"
+          />
+        </div>
+        <div class="field-col">
+          <label>Retype Password</label>
+          <input
+            type="password"
+            [(ngModel)]="form.retypePassword"
+            name="retype"
+            maxlength="100"
+          />
+        </div>
+      </div>
+
+      <!-- Row 5 -->
+      <div class="form-row">
+        <div class="field-col">
+          <label>Start Date</label>
+          <div class="date-field">
+            <input type="date" [(ngModel)]="form.startDate" name="startDate" />
+          </div>
+        </div>
+        <div class="field-col">
+          <label>End Date</label>
+          <div class="date-field">
+            <input type="date" [(ngModel)]="form.endDate" name="endDate" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 6 -->
+      <div class="form-row align-bottom">
+        <div class="field-col" style="max-width: 200px">
+          <label>Status</label>
+          <select [(ngModel)]="form.statusId" name="status">
+            <option [ngValue]="null">-- Select --</option>
+            <option *ngFor="let s of statuses" [ngValue]="s.id">
+              {{ s.value }}
+            </option>
+          </select>
+        </div>
+        <div class="field-col submit-col">
+          <button class="btn-submit" (click)="onSubmit()" [disabled]="saving">
+            {{ saving ? "Saving..." : "Submit" }}
+          </button>
+          <div class="email-note" *ngIf="showEmailNote">
+            ✉ Email sent to HR on Activation
+          </div>
+        </div>
+      </div>
+
+      <div class="error-msg" *ngIf="errorMsg">{{ errorMsg }}</div>
+      <div class="success-msg" *ngIf="successMsg">{{ successMsg }}</div>
+    </div>
+
+    <!-- App checkboxes (right panel) -->
+    <div class="app-panel">
+      <div class="app-check" *ngFor="let app of allApps">
+        <input
+          type="checkbox"
+          [id]="'app_' + app.appId"
+          [checked]="form.appIds.includes(app.appId)"
+          (change)="toggleApp(app.appId, $event)"
+        />
+        <label [for]="'app_' + app.appId">{{ app.appName }}</label>
+      </div>
+      <div class="email-note-right" *ngIf="emailSentBefore">
+        ✉ Email sent to HR on Activation
+      </div>
+    </div>
+  </div>
+</div>

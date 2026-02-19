@@ -1,0 +1,99 @@
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:33:17"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:33:17"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:33:17"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:35:45"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:35:45"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:35:46"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:40:32"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:40:32"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:32"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:40:37"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:40:37"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:37"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:40:50"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:40:50"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:50"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:40:55"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:40:55"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:55"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:41:47"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:41:47"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:41:47"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:43:28"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:43:28"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:43:28"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:43:53"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:43:53"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:43:53"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:44:47"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:44:47"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:44:47"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:45:35"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:45:35"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:45:35"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:46:46"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:46:46"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:46:47"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:47:03"}
+{"algorithm":"HS256","env":"development","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:47:03"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:47:03"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:47:38"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:47:38"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:47:40"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:47:40"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:47:40"}
+{"level":"info","message":"SSO Server running on http://0.0.0.0:3000","timestamp":"2026-02-19 13:47:40"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:48:07"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:48:08"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:48:08"}
+{"level":"info","message":"SSO Server running on http://0.0.0.0:3000","timestamp":"2026-02-19 13:48:08"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:48:19"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:48:19"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:48:19"}
+{"level":"info","message":"SSO Server running on http://0.0.0.0:3000","timestamp":"2026-02-19 13:48:19"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:49:56"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:49:56"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:49:57"}
+{"level":"info","message":"SSO Server running on http://0.0.0.0:3000","timestamp":"2026-02-19 13:49:57"}
+{"ip":"192.168.10.39","level":"info","message":"Request","method":"GET","path":"/","reqId":"5a5a92cba38f78af","timestamp":"2026-02-19 13:50:53"}
+{"ip":"127.0.0.1","level":"info","message":"Request","method":"GET","path":"/","reqId":"1f7fd64b8462297a","timestamp":"2026-02-19 13:51:46"}
+{"ip":"127.0.0.1","level":"info","message":"Request","method":"GET","path":"/favicon.ico","reqId":"42bb3def4c205728","timestamp":"2026-02-19 13:51:46"}
+{"ip":"127.0.0.1","level":"info","message":"Request","method":"GET","path":"/","reqId":"81787f2883556953","timestamp":"2026-02-19 13:52:48"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:54:21"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:54:21"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:54:21"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 13:54:21"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:54:59"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:54:59"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:54:59"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 13:54:59"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:55:23"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:55:23"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:55:23"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 13:55:23"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"00760c32295049b6","timestamp":"2026-02-19 13:55:29"}
+{"level":"info","message":"JWT algorithm: HS256","timestamp":"2026-02-19 13:55:51"}
+{"algorithm":"HS256","env":"DEVELOPMENT","level":"info","message":"Starting SSO Auth Server...","timestamp":"2026-02-19 13:55:51"}
+{"level":"info","message":"Database connected","timestamp":"2026-02-19 13:55:51"}
+{"level":"info","message":"SSO Server running on http://localhost:3000","timestamp":"2026-02-19 13:55:51"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"d52ad16e5f5ecccf","timestamp":"2026-02-19 13:55:51"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"53632eeed15d6eff","timestamp":"2026-02-19 13:55:51"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/favicon.ico","reqId":"0774125d0b57390a","timestamp":"2026-02-19 13:55:51"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/favicon.ico","reqId":"b92f2ae756ef8456","timestamp":"2026-02-19 13:55:51"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"8c6f5bd1a311150d","timestamp":"2026-02-19 13:55:52"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"d317a59c9ff9ea85","timestamp":"2026-02-19 13:55:52"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"75b7e7b05c7fe8b1","timestamp":"2026-02-19 13:55:52"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/health","reqId":"376c4f89f0c08680","timestamp":"2026-02-19 13:56:11"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/openid-configuration","reqId":"ce6f77df3994bad8","timestamp":"2026-02-19 13:56:35"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/openid-configuration","reqId":"57e213c573326307","timestamp":"2026-02-19 13:56:41"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/openid-configuration","reqId":"ac35d96abcabf797","timestamp":"2026-02-19 13:56:42"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/openid-configuration","reqId":"c6f82c56d184c1a7","timestamp":"2026-02-19 13:56:42"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/openid-configuration","reqId":"df45fafc3914bca1","timestamp":"2026-02-19 13:56:42"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/openid-configuration","reqId":"6ec889a427c21618","timestamp":"2026-02-19 13:56:43"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/.well-known/jwks.json","reqId":"212dad3895d37256","timestamp":"2026-02-19 13:56:57"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"//sso/authorize","reqId":"a351c2f04cddfc01","timestamp":"2026-02-19 16:04:22"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"//sso/authorize","reqId":"e611111ea6bfa0a2","timestamp":"2026-02-19 16:04:32"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"//sso/authorize","reqId":"129fde1d84470d86","timestamp":"2026-02-19 16:04:55"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"//sso/authorize","reqId":"2c8e028d285d76e4","timestamp":"2026-02-19 16:05:51"}
+{"ip":"::1","level":"info","message":"Request","method":"GET","path":"/","reqId":"b6b55f5433db7a65","timestamp":"2026-02-19 16:06:18"}
+{"level":"info","message":"SIGINT received — shutting down","timestamp":"2026-02-19 16:16:26"}

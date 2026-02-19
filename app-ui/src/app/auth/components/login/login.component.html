@@ -1,0 +1,45 @@
+<div class="login-page">
+  <div class="login-box">
+    <div class="login-logo">
+      <img
+        src="/assets/logo.png"
+        alt="Logo"
+        onerror="this.style.display = 'none'"
+      />
+      <h2>SSO Login</h2>
+    </div>
+
+    <div class="field-row">
+      <label>Username</label>
+      <input
+        type="text"
+        [(ngModel)]="username"
+        name="username"
+        autocomplete="username"
+        [disabled]="loading"
+        (keyup.enter)="onSubmit()"
+      />
+    </div>
+
+    <div class="field-row">
+      <label>Password</label>
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        autocomplete="current-password"
+        [disabled]="loading"
+        (keyup.enter)="onSubmit()"
+      />
+    </div>
+
+    <div class="error-msg" *ngIf="errorMsg">{{ errorMsg }}</div>
+
+    <div class="btn-row">
+      <a class="link-btn" href="/reset-password">Reset Password</a>
+      <button class="btn-submit" (click)="onSubmit()" [disabled]="loading">
+        {{ loading ? "Signing in..." : "Submit" }}
+      </button>
+    </div>
+  </div>
+</div>

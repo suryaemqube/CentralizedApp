@@ -1,0 +1,13 @@
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:33:17"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:35:46"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:32"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:37"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:50"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:40:55"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:41:47"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:43:28"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:43:53"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:44:47"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:45:35"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:46:47"}
+{"error":"SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string","level":"error","message":"DB query error","text":"SELECT 1","timestamp":"2026-02-19 13:47:03"}

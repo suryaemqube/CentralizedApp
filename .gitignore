@@ -1,0 +1,37 @@
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Angular
+dist/
+out-tsc/
+**/.angular/cache/
+
+# Build
+build/
+coverage/
+
+# Temp
+tmp/
+temp/
+Tempfile
+
+# IDE
+**/.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#files
+Tempfile
+schema
+certs

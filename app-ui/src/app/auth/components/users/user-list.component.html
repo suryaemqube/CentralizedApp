@@ -1,0 +1,71 @@
+<div class="page-wrap">
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <!-- Status tabs -->
+    <div class="tab-group">
+      <button
+        *ngFor="let s of statuses"
+        class="tab-btn"
+        [class.active]="activeStatus === s"
+        (click)="setStatus(s)"
+      >
+        {{ s }}
+      </button>
+    </div>
+
+    <!-- Department filter -->
+    <select class="sel-dept" [(ngModel)]="selectedDept" (change)="load()">
+      <option value="">Department</option>
+      <option *ngFor="let d of departments" [value]="d.id">
+        {{ d.value }}
+      </option>
+    </select>
+
+    <!-- Search -->
+    <input
+      class="search-box"
+      type="text"
+      placeholder="Search"
+      [(ngModel)]="searchTerm"
+      (input)="onSearch()"
+    />
+
+    <a class="add-new-link" (click)="addNew()">ADD NEW</a>
+  </div>
+
+  <!-- Grid -->
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>SSONID</th>
+        <th>EmpCode</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Department</th>
+        <th>Apps</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users">
+        <td>{{ u.ssonId }}</td>
+        <td>{{ u.empCode }}</td>
+        <td>{{ u.firstName }}</td>
+        <td>{{ u.lastName }}</td>
+        <td>{{ u.department }}</td>
+        <td class="apps-cell">{{ u.apps }}</td>
+        <td>{{ u.status }}</td>
+        <td>
+          <button class="edit-btn" (click)="edit(u)" title="Edit">✏️</button>
+        </td>
+      </tr>
+      <tr *ngIf="users.length === 0 && !loading">
+        <td colspan="8" class="no-data">No records found.</td>
+      </tr>
+      <tr *ngIf="loading">
+        <td colspan="8" class="no-data">Loading...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

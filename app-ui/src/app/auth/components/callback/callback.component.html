@@ -1,0 +1,11 @@
+<div class="cb-wrap">
+  <div *ngIf="loading" class="cb-card">
+    <div class="spinner"></div>
+    <p>Completing authentication, please wait...</p>
+  </div>
+  <div *ngIf="errorMsg" class="cb-card error">
+    <h3>Authentication Failed</h3>
+    <p>{{ errorMsg }}</p>
+    <button (click)="retry()">Try Again</button>
+  </div>
+</div>
